@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+.pb{
+    width: auto;
+    height: 200px;
+    border: 2px dashed purple;
+    position: relative;
+}
+.pbt{
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+.gt{
+    color: green;
+    font-size: 10px;
+}
+.lot{
+    font-size: 24px;
+    color: orange;
+    text-align: left;
+}
+.rt{
+    color: red;
+    vertical-align: super;
+}
+.spt{
+    font-size: 5px;
+    color: purple;
+    text-align: right;
+}
+.yt{
+    color: yellow;
+    font-style: italic;
+}

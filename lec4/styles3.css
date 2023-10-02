@@ -1,0 +1,32 @@
+.gr{
+    width: auto;
+    height: 150px;
+    background-color: green;
+    position: relative;
+}
+.bb{
+    border: 4px dashed black;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 50px;
+}
+.rt{
+    color: red;
+    position: absolute;
+    left: 30px;
+    top: 30px; 
+}
+.dgt{
+    color: darkgreen;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+.pt{
+    color: purple;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
