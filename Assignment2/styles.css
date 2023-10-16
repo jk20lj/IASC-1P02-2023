@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.coloured-text{
+    color:orange;
+}
+.sized-text{
+    font-size: 25px;
+}
+.font-changed{
+    font-style: italic;
+}
+.uppercase-text{
+    text-transform: uppercase;
+}
+.container{
+    position: relative;
+}
+.penguin{
+    width: 100px;
+    height: auto;
+}
+.absolute{
+    position: absolute;
+    right: 0px;
+    background-color: lightyellow;
+}
+.relative{
+    position: relative;
+    left: 0px;
+    background-color: lightgreen;
+}
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 750px;
+    background-color: lightblue;
+}
+.nested p{
+    color: red;
+}
+.box{
+    background-color: aquamarine;
+    border: 5px dotted black;
+    width:300px;
+    height:300px;
+    margin: 30px;
+    padding: 20px;
+}
