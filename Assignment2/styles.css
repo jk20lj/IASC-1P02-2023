@@ -22,23 +22,25 @@ body{
     height: auto;
 }
 .absolute{
+    background-color: lightyellow;
     position: absolute;
     right: 0px;
-    background-color: lightyellow;
 }
 .relative{
+    background-color: lightgreen;
     position: relative;
     left: 0px;
-    background-color: lightgreen;
 }
 .fixed{
+    background-color: lightblue;
     position: fixed;
     bottom: 0px;
     right: 750px;
-    background-color: lightblue;
+    opacity: 0.5;
 }
 .nested p{
     color: red;
+    font-weight: bold;
 }
 .box{
     background-color: aquamarine;
