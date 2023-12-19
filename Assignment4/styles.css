@@ -1,0 +1,134 @@
+body{
+  min-height: 840px;
+  flex-direction: column;
+  display: flex;
+}
+body, h1, h2, h3, ul, li, p{
+  padding: 0;
+  margin: 0;
+}
+/*Header and logo, animation and styling*/
+#header{
+  background-color: white;
+  border-bottom: 2px solid grey;
+  justify-content: center;
+  text-align: center;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  z-index: 1000;
+  padding: 20px;
+}
+#logo-container{
+  align-items: center;
+  display: flex;
+}
+ #store-name{
+  margin-right: 95px;
+}
+ #logo{
+  width: 50px;
+  height: 50px;
+  margin-right: 25px;
+  animation: spin 4s linear infinite;
+}
+ /*Used https://stackoverflow.com/questions/25716739/how-do-you-spin-side-to-side-using-css3-animation for help with the side to side spinning logo animation*/
+ @keyframes spin{
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+#nav ul{
+  list-style: none;
+}
+#nav ul li{
+  margin-right: 20px;
+  display: inline;
+}
+#nav ul li a{
+  color: darkgrey;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+#nav ul li a:hover{
+  color: blue;
+}
+#main{
+  flex-grow: 1;
+  padding: 20px;
+} 
+#content{
+  text-align: center;
+  }
+/*Home Page Gallery*/
+.gallery{
+  height: 570px;
+  width: auto;
+  position: relative;
+}
+.gallery-image{
+  height: 100%;
+  width: 80%;
+  padding-top: 25px;
+  position: absolute;
+  display: block;
+  margin: auto;
+  transition: opacity 1s;
+  right: 0;
+  left: 0;
+  opacity: 0; 
+}
+.gallery-image:first-child{
+  opacity: 1;
+}
+/*Product Page Gallery*/
+/* Used https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp to configure the 3x3 galler grid and the hover transition css.*/
+.gallery-two{
+  padding: 20px;
+  grid-gap: 10px;
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gallery-image-two{
+  width: 100%;
+  transition: 0.3s ease;
+}
+.gallery-image-two:hover{
+  transform: scale(1.2);
+}
+/*Shop Button*/
+.shop-now{
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.shop-button, #contactbutton{
+  color: white;
+  background-color: darkgrey;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.5s ease;
+ }
+.shop-button:hover, #contactbutton:hover{
+  background-color: blue;
+ }
+/*Contact Page*/
+#contact{
+  text-align: center;
+  margin-top: 25px;
+}
+/*Footer*/
+#footer{
+  color: black;
+  background-color: white;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: -50px;
+  padding: 10px;
+  border-top: 2px solid grey;
+}
