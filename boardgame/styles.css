@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+   }
+   .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+   }
+   button {
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+   }
+   #upperClass {
+    background-color: #4CAF50 !important;
+   }
+   #middleClass {
+    background-color: #2196F3 !important;
+   }
+   #lowerClass {
+    background-color: #f44336 !important;
+   }
+   #nextRound {
+    background-color: #555555;
+   }
+   #scenario {
+    font-weight: bold;
+    margin-top: 20px;
+   }
+   #playerStatus, #botStatus {
+    margin-top: 10px;
+   }
+   #score {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+   }

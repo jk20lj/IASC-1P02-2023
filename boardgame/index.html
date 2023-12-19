@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+ <div class="button-container">
+   <button onclick="selectClass('Upper')">Select Upper Class</button>
+   <button onclick="selectClass('Middle')">Select Middle Class</button>
+   <button onclick="selectClass('Lower')">Select Lower Class</button>
+   <button id="nextRound" onclick="playRound()" disabled>Next Round</button>
+ </div>
+ <p id="scenario"></p>
+ <p id="playerStatus"></p>
+ <p id="botStatus"></p>
+ <p id="score">Player: 0 | Bot: 0</p>
+ <script src="script.js"></script>
+</body>
+</html>
